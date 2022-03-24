@@ -4,7 +4,7 @@ body {
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -36,18 +36,6 @@ body {
   display: none;
 }
 
-.card {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-self: center;
-    border: 2px solid #b3b3b3;
-    border-radius: 10px;
-    background-color: #ffff;
-
-  }
-
-
-
 h1 {
   font-size: 18px;
 }
@@ -70,16 +58,16 @@ h2 {
 }
 
 .card{
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    border: 1px lightgrey solid;
-    border-radius: 2%;
-    height: 150px;
-    width: 350px;
-    justify-content: space-evenly;
-
-
+   display: grid;
+   grid-template-columns: 1fr 1.5fr;
+   border: 1px lightgrey solid;
+   border-radius: 2%;
+   height: 150px;
+   width: 100%;
+   justify-content: space-evenly;
+   background-color: #ffff;
 }
+
 .name{
     font-size: 18px;
 
